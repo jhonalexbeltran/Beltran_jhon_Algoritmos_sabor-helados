@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #6a11cb);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-bottom: 40px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.flavor-btn {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #4facfe, #a18cd1);
+    color: white;
+    transition: 0.3s;
+}
+
+.flavor-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #43e97b, #38f9d7);
+}
+
+.vs {
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#ranking-container {
+    display: none;
+}
+
+#ranking-list {
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#ranking-list li {
+    margin: 8px 0;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #ffffff;
+    color: #6a11cb;
+    font-weight: bold;
+}
